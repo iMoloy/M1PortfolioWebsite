@@ -85,3 +85,57 @@ nav .menu a {
   max-width: 585px;
   vertical-align: middle;
 }
+/* section start */
+.about {
+  padding: 130px 230px;
+}
+.about-area {
+  max-width: 1140px;
+  background-color: #fff8f3;
+  margin: 0 auto;
+  text-align: center;
+  padding: 131px 156px;
+}
+.about-container h3 {
+  font-size: 35px;
+  font-weight: bold;
+  color: #181818;
+  padding-bottom: 30px;
+}
+.about-container p {
+  font-size: 18px;
+  line-height: 30px;
+  color: #757575;
+  padding-bottom: 30px;
+}
+.about-card {
+  gap: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.about-card .info-card p {
+  font-size: 20px;
+  color: #757575;
+  gap: 30px;
+}
+.about-card .info-card h3 {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 30px;
+}
+/* Skill Start */
+.what{
+      text-align: center;
+}
+.what h3 {
+  font-size: 35px;
+  font-weight: bold;
+  color: #181818;
+  padding-bottom: 30px;
+}
+.what p{
+    font-size: 18px;
+  line-height: 30px;
+  color: #757575;
+  padding-bottom: 30px;  
+}
