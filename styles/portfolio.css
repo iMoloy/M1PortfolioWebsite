@@ -124,18 +124,48 @@ nav .menu a {
   line-height: 30px;
 }
 /* Skill Start */
-.what{
+.skill-container{
+      width: 71%;
+      max-width: 1140px;
+      margin: 0 auto;
+}
+.skill-heading{
       text-align: center;
 }
-.what h3 {
+.skill-heading h3 {
   font-size: 35px;
   font-weight: bold;
   color: #181818;
   padding-bottom: 30px;
 }
-.what p{
+.skill-heading p{
     font-size: 18px;
   line-height: 30px;
   color: #757575;
   padding-bottom: 30px;  
+}
+.skill-card{
+      display: flex;
+      gap: 24px;
+}
+.skill-card .card-item{
+      padding: 30px;
+      box-shadow: 0 6px 50px 0 #00000025;
+      border-radius: 5px;
+      max-width: 267px;
+}
+.skill-card .card-item img{
+      width: 44px;
+      margin-bottom: 30px;
+}
+.skill-card .card-item h3{
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 20px;
+      line-height: 30px;
+}
+.skill-card .card-item p{
+      font-size: 16px;
+      color: #757575;
+      line-height: 28px;
 }
