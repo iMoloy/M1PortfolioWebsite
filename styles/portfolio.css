@@ -20,6 +20,9 @@
   color: #fff;
   cursor: pointer;
 }
+.hidden{
+      visibility: hidden;
+}
 /* Main style */
 header {
   background-color: #fff8f3;
